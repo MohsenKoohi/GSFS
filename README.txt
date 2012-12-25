@@ -30,7 +30,7 @@ the results in kernel.
 
 For more information and details, see GSFS documentation.
 
-This work has been done during my master thesis in IUT under supervision
+This work has been done as my master thesis in IUT under supervision
 "Dr. Mohammad Ali Montazeri" and "Dr. Mehdi Berenjkoub".
 
 You can download GSFS using:
