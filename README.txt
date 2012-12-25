@@ -2,7 +2,8 @@ In His Sublime Name
 
 GSFS: GPGPU-based Secure File System
 Version: 0.51
-Tested on linux kernel 2.6.34
+16K LOC
+Tested on Linux kernel 2.6.34
 
 Mohsen Koohi Esfahani (koohi @@@  burge ... ir )
 Burge Computer Lab
@@ -25,7 +26,7 @@ confidentiality and integrity.
 kernel module and in the current version, it uses one OpenCL user level program 
 to encrypt/decrypt data in parallel with CPU and GPU. We map kernel memory pages 
 on this process virtual memory and after the completion of the work, we use
-the results in kernel.
+the results in kernel. 
 
 For more information and details, see GSFS documentation.
 
