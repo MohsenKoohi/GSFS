@@ -27,7 +27,7 @@ to encrypt/decrypt data in parallel with CPU and GPU. We map kernel memory pages
 on this process virtual memory and after the completion of the work, we use
 the results in kernel.
 
-For more information and details please see GSFS documentation.
+For more information and details, see GSFS documentation.
 
 This work has been done during my master thesis in IUT under supervision
 "Dr. Mohammad Ali Montazeri" and "Dr. Mehdi Berenjkoub".
