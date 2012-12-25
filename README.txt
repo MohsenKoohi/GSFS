@@ -43,6 +43,7 @@ Note that
 1)Our "rsa.c" file is adopted from PolarSSL package "http://polarssl.org/" and we have only 
 ported their work in to kernel mode for our usage.
 2)Our "skein512.c" file is adopted from "http://www.skein-hash.info/".
+3)"aes.c" is "Christophe Devine's AES" and we dont' use it. Instead we use kernel's aes, see cipher.c.
 
 References:
 [1] Erel Geron and Avishai Wool. Crust: cryptographic remote untrusted storage without 
