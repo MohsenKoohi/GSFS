@@ -1,0 +1,17 @@
+#MAJOR = `cat /proc/devices|grep "GSFS"|cut -f1 -d" "`
+
+gsfs_user_prog.o : gsfs_user_prog.c rsa.c
+	gcc gsfs_user_prog.c -o gsfs_user_prog.o -std=c99
+
+all:	gsfs_user_prog.o 
+	@echo -e "\n**** gup_Makefile\n"
+	#@mknod gsfs_cdev c $(MAJOR) 0
+	#@chmod a+rw gsfs_cdev
+	@chmod a+x gsfs_user_prog.o
+	#konsole -e ./gsfs_user_prog.o `pwd`/gsfs_cdev
+	./gsfs_user_prog.o `pwd`/gsfs_cdev $(p1) $(p2) "$(p3)"
+rem:
+	@echo -e "\n**** gup_Makefile rem\n"
+	#@rm gsfs_cdev
+	
+
