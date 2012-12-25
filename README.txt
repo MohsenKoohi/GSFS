@@ -9,7 +9,7 @@ Mohsen Koohi Esfahani (koohi @@@  burge ... ir )
 Burge Computer Lab
 
 
-GSFS is an open source novel secure filesystem in two cases:
+GSFS is an open source secure file system. It is novel because of two reasons:
 1) GSFS provides integrity and confidentiality of data. This file system enables information sharing
 for users by making inodes accessible for different users and also by
 enabling users to expand/shrink the access level in each point of tree
@@ -23,7 +23,7 @@ users public key for confidentiality. In this way it differentiates
 confidentiality and integrity.
 
 2) GSFS uses GPGPU for encryption and decryption. It is implemented as a Linux 
-kernel module and in the current version, it uses one OpenCL user level program 
+kernel module and in current version, it uses one OpenCL user level program 
 to encrypt/decrypt data in parallel with CPU and GPU. We map kernel memory pages 
 on this process virtual memory and after the completion of the work, we use
 the results in kernel. 
