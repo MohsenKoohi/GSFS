@@ -4,7 +4,7 @@ GSFS: GPGPU-based Secure File System
 Version: 0.51
 Tested on linux kernel 2.6.34
 
-Mohsen Koohi Esfahani (koohi@burge.ir)
+Mohsen Koohi Esfahani (__koohi__@___burge__.__ir__)
 Burge Computer Lab
 
 
