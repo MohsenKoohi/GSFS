@@ -9,7 +9,7 @@ Mohsen Koohi Esfahani (koohi @@@  burge ... ir )
 Burge Computer Lab
 
 
-GSFS is an open source (with GNU GPLv3 license) secure file system. It is novel because of two reasons:
+GSFS is an open source (with GNU GPLv3 license) secure file system. It is novel because:
 1) GSFS provides integrity and confidentiality of data. This file system enables information sharing
 for users by making inodes accessible for different users and also by
 enabling users to expand/shrink the access level in each point of tree
