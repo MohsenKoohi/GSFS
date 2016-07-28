@@ -29,20 +29,22 @@ on this process virtual memory and after the completion of the work, we use
 the results in kernel. 
 
 ##Current Problems
-1)Current context switch between kernel and user level.
-2)Currently we have some problems with retreiving all allocated pages.
+*Current context switch between kernel and user level.
+*Currently we have some problems with retreiving all allocated pages.
 
 ##Note
-1)Our "rsa.c" file is adopted from PolarSSL package "http://polarssl.org/" and we have only 
+*Our "rsa.c" file is adopted from PolarSSL package "http://polarssl.org/" and we have only 
 ported their work in to kernel mode for our usage.
-2)Our "skein512.c" file is adopted from "http://www.skein-hash.info/".
-3)"aes.c" is "Christophe Devine's AES" and we dont' use it. Instead we use kernel's aes, see cipher.c.
+*Our "skein512.c" file is adopted from "http://www.skein-hash.info/".
+*"aes.c" is "Christophe Devine's AES" and we dont' use it. Instead we use kernel's aes, see cipher.c.
 
 ##References
 [1] Erel Geron and Avishai Wool. Crust: cryptographic remote untrusted storage without 
 public keys. Int. J. Inf. Sec., 8(5):357–377, 2009.
+
 [2] Dominik Grolimund, Luzius Meisser, Stefan Schmid, and Roger Wattenhofer. 
 Cryptree: A folder tree structure for cryptographic file systems. In SRDS, pages 189–198, 2006.
+
 [3]David A. McGrew and John Viega. The galois/counter mode of operation. 
 http://csrc.nist.gov/groups/ST/toolkit/BCM/documents/proposedmodes/gcm/gcm-spec.pdf, 2005.
 
