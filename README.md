@@ -1,16 +1,17 @@
-In His Sublime Name
 
-GSFS: GPGPU-based Secure File System
+#[GSFS: GPGPU-based Secure File System](http://www.burge.ir/category-2/GSFS)
+
+![GSFS](http://burge.ir/upload/cat-2-GSFS/slider_gsfs.jpg)
+
 Version: 0.51
 16K LOC
 Tested on Linux kernel 2.6.34
 
-Mohsen Koohi Esfahani (koohi @@@  burge ... ir )
-Burge Computer Lab
+##Burge Computer Lab
 
 
-GSFS is an open source (with GNU GPLv3 license) secure file system. It is novel because:
-1) GSFS provides integrity and confidentiality of data. This file system enables information sharing
+GSFS is an open source (with GNU GPLv3 license) novel secure file system :
+* GSFS provides integrity and confidentiality of data. This file system enables information sharing
 for users by making inodes accessible for different users and also by
 enabling users to expand/shrink the access level in each point of tree
 structure of inodes.
@@ -22,7 +23,7 @@ GSFS uses root user public key to make file system integrated and employs
 users public key for confidentiality. In this way it differentiates
 confidentiality and integrity.
 
-2) GSFS uses GPGPU for encryption and decryption. It is implemented as a Linux 
+* GSFS uses GPGPU for encryption and decryption. It is implemented as a Linux 
 kernel module and in current version, it uses one OpenCL user level program 
 to encrypt/decrypt data in parallel with CPU and GPU. We map kernel memory pages 
 on this process virtual memory and after the completion of the work, we use
@@ -51,16 +52,16 @@ Cryptree: A folder tree structure for cryptographic file systems. In SRDS, pages
 [3]David A. McGrew and John Viega. The galois/counter mode of operation. 
 http://csrc.nist.gov/groups/ST/toolkit/BCM/documents/proposedmodes/gcm/gcm-spec.pdf, 2005.
 
-License:
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+## License:
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
