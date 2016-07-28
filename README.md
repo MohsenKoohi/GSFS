@@ -29,14 +29,14 @@ on this process virtual memory and after the completion of the work, we use
 the results in kernel. 
 
 ##Current Problems
-*Current context switch between kernel and user level.
-*Currently we have some problems with retreiving all allocated pages.
+* Context switch between kernel and user level.
+* We have some problems with retreiving all allocated pages.
 
 ##Note
-*Our "rsa.c" file is adopted from PolarSSL package "http://polarssl.org/" and we have only 
+* Our "rsa.c" file is adopted from PolarSSL package "http://polarssl.org/" and we have only 
 ported their work in to kernel mode for our usage.
-*Our "skein512.c" file is adopted from "http://www.skein-hash.info/".
-*"aes.c" is "Christophe Devine's AES" and we dont' use it. Instead we use kernel's aes, see cipher.c.
+* Our "skein512.c" file is adopted from "http://www.skein-hash.info/".
+* "aes.c" is "Christophe Devine's AES" and we dont' use it. Instead we use kernel's aes, see cipher.c.
 
 ##References
 [1] Erel Geron and Avishai Wool. Crust: cryptographic remote untrusted storage without 
