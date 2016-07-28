@@ -7,9 +7,9 @@ Version: 0.51
 16K LOC
 Tested on Linux kernel 2.6.34
 
-##Burge Computer Lab
+Burge Computer Lab
 
-
+##Features
 GSFS is an open source (with GNU GPLv3 license) novel secure file system :
 * GSFS provides integrity and confidentiality of data. This file system enables information sharing
 for users by making inodes accessible for different users and also by
@@ -34,17 +34,17 @@ For more information and details, see GSFS documentation.
 You can download GSFS using:
 git clone git://github.com/MohsenKoohi/GSFS.git
 
-Current Problems:
+##Current Problems
 1)Current context switch between kernel and user level.
 2)Currently we have some problems with retreiving all allocated pages.
 
-Note that 
+##Note
 1)Our "rsa.c" file is adopted from PolarSSL package "http://polarssl.org/" and we have only 
 ported their work in to kernel mode for our usage.
 2)Our "skein512.c" file is adopted from "http://www.skein-hash.info/".
 3)"aes.c" is "Christophe Devine's AES" and we dont' use it. Instead we use kernel's aes, see cipher.c.
 
-References:
+##References
 [1] Erel Geron and Avishai Wool. Crust: cryptographic remote untrusted storage without 
 public keys. Int. J. Inf. Sec., 8(5):357–377, 2009.
 [2] Dominik Grolimund, Luzius Meisser, Stefan Schmid, and Roger Wattenhofer. 
@@ -52,7 +52,7 @@ Cryptree: A folder tree structure for cryptographic file systems. In SRDS, pages
 [3]David A. McGrew and John Viega. The galois/counter mode of operation. 
 http://csrc.nist.gov/groups/ST/toolkit/BCM/documents/proposedmodes/gcm/gcm-spec.pdf, 2005.
 
-## License:
+## License
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
