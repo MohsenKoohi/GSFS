@@ -3,11 +3,11 @@
 
 ![GSFS](http://burge.ir/upload/cat-2-GSFS/slider_gsfs.jpg)
 
-Version: 0.51
-16K LOC
-Tested on Linux kernel 2.6.34
-
 Burge Computer Lab
+
+* Version: 0.51
+* 16K LoC
+* Tested on Linux kernel 2.6.34
 
 ##Features
 GSFS is an open source (with GNU GPLv3 license) novel secure file system :
