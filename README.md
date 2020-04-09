@@ -1,7 +1,7 @@
 
-[GSFS: GPGPU-based Secure File System](http://www.burge.pro/category-2/GSFS)
+[GSFS: GPGPU-based Secure File System](http://www.burge.eu/category-2/GSFS)
 
-![GSFS](http://burge.pro/upload/cat-2-GSFS/slider_gsfs.jpg)
+![GSFS](http://burge.eu/upload/cat-2-GSFS/slider_gsfs.jpg)
 
 Burge Computer Lab
 
